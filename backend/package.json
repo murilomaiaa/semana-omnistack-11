@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend of the aplication",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "yarn dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrlmaia/semana-omnistack-11.git"
+  },
+  "keywords": [
+    "backend",
+    "nodejs",
+    "express"
+  ],
+  "author": "mrlmaia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrlmaia/semana-omnistack-11/issues"
+  },
+  "homepage": "https://github.com/mrlmaia/semana-omnistack-11#readme"
+}
