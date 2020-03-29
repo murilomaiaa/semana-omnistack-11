@@ -11,6 +11,7 @@ module.exports = {
       .select('*')
       .limit(5)
       .offset((page -1) * 5)
+      .join('ongs', 'ongs.ongId', '=', 'incidents.ongId')
 
     res.header('X-Total-Count', count['count(*)'])
     return res.json(incidents)
